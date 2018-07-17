@@ -32,7 +32,7 @@ class FirebaseController extends Controller
 
   $newPost = $database
 
-  ->getReference('Support Chat')
+  ->getReference('Support Chat1')
 
   ->push([
 

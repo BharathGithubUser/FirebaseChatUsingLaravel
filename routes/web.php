@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/phpfirebase_sdk','FirebaseController@index');
 Route::resource('post', 'PostController');
+Route::get('users', 'HomeController@users');

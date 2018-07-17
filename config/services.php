@@ -34,5 +34,12 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'firebase' => [
+    'api_key' => 'api_key', // Only used for JS integration
+      'auth_domain' => 'auth_domain', // Only used for JS integration
+    'database_url' => 'https://fir-chat-20a3d.firebaseio.com/',
+    'secret' => 'secret',
+    'storage_bucket' => '', // Only used for JS integration
+    ],
 
 ];
